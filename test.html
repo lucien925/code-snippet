@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	.fade {
+		width: 100px;
+		height: 100px;
+		background: red;
+		opacity: 0;
+	}
+	</style>
+</head>
+<body>
+	<div class="fade"></div>
+	<script src="./snippet/fade.js"></script>
+	<script>
+		var oFade = document.getElementsByClassName('fade')[0];
+		fade(oFade, 'in', 1000, false);
+	</script>
+</body>
+</html>
